@@ -475,8 +475,10 @@ html {
 
 .footer-outer {
   width: 100%;
-  padding: 50px;
-  height: 250px;
+  /* padding: 50px; */
+  padding: 4px;
+  /* height: 250px; */
+  height: 100px;
   background: #2e3149;
   overflow: hidden;
 }
@@ -946,7 +948,8 @@ html {
 
   .fh5co-hero-inner .fh5co-hero-smartphone {
     height: 450px;
-    top: 420px;
+    /* top: 420px; */
+    top: 285px;
     margin-top: 70px;
   }
 
