@@ -777,6 +777,7 @@ html {
 
     .fh5co-reviews-outer {
         padding: 0;
+        padding-top: 180px;
     }
 
     .navbar-light .navbar-toggler {
@@ -793,6 +794,10 @@ html {
         margin-right: 10px !important;
         margin-left: 0 !important;
         font-size: 30px;
+    }
+
+    .fh5co-reviews-outer .fh5co-reviews-inner {
+        margin-top: 30px;
     }
 }
 @media screen and (max-width: 800px) {
@@ -958,7 +963,9 @@ html {
     .fh5co-hero-inner .fh5co-hero-smartphone {
         height: 450px;
         /* top: 420px; */
-        top: 285px;
+        /* top: 285px; */
+        top: 340px;
+
         margin-top: 70px;
     }
 
