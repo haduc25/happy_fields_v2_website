@@ -429,9 +429,15 @@ html {
     clear: both;
     padding-top: 30px;
     font-weight: 500;
+    color: #858585;
 }
 .fh5co-reviews-outer .testimonial-2 {
     margin-left: 50px;
+}
+
+.testimonial-author {
+    font-weight: 600;
+    font-size: 14px;
 }
 
 /* ==========================================================================================================
@@ -996,4 +1002,30 @@ html {
         width: 100%;
         text-align: center;
     }
+}
+
+/* childOfBtnDownload */
+.childOfBtnDownload {
+    font-weight: 700;
+    color: #ffba59;
+    cursor: pointer;
+}
+
+.childOfBtnDownload:hover {
+    text-decoration: underline;
+    filter: brightness(1.5);
+}
+
+/* scrollbar */
+html *::-webkit-scrollbar {
+    border-radius: 0;
+    width: 8px;
+}
+html *::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    background-color: rgba(22, 24, 35, 0.06);
+}
+html *::-webkit-scrollbar-track {
+    border-radius: 0;
+    background-color: rgba(0, 0, 0, 0);
 }
