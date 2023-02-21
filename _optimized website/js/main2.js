@@ -93,3 +93,9 @@ function getPath(update, smoothing, pointsNew) {
         );
     return `<path d="${d}" />`;
 }
+
+// handle blocked right clicked
+window.oncontextmenu = (e) => {
+    e.preventDefault();
+    return;
+};
